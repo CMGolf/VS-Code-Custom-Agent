@@ -1,0 +1,9 @@
+[project]
+name = "coding-agent-tools"
+version = "0.1.0"
+description = "MCP server providing minimal tools for the Coding Agent - focused on reading specs and recording implementation results"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.25.0",
+]

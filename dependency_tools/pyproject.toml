@@ -1,0 +1,10 @@
+[project]
+name = "dependency-tools"
+version = "0.1.0"
+description = "MCP server providing package research, installation, and management tools for the External Dependency Agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.25.0",
+    "httpx>=0.27.0",
+]
